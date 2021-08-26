@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+span {
+    font-weight: 700;
+    font-size: 25px;
+}
+#mi {
+    color: rgb(211, 76, 76);
+}
+#health {
+    color: rgb(13, 197, 13);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+nav a{
+    margin: 20px;
+}
+#fullContent {
+    background-image: url("images/paper.png");
+    display: flex;
+    padding: 5% 5%;
+    width: auto;
+    justify-content: space-around;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.content {
+    width: 25%;
+    margin: 0 5px;
+}
+#img1 {
+    background-image: url(images/oatmeal.jpeg);
+    background-size: cover;
+}
+#img2 {
+    background-image: url(images/pasta.jpeg);
+    background-size: cover;
+}
+#img3{
+    background-image: url(images/shrimp.jpeg);
+    background-size: cover;
+}
+.whiteBox {
+    background-color: white;
+    width: fit-content;
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+.greenBox {
+    background-color: rgb(13, 197, 13);
+    width: 40%;
+    padding: 10px 15px;
+    margin-top: 0;
+    text-align: end;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 375px;
+}
