@@ -51,13 +51,13 @@ a {
     background-color: white;
     width: fit-content;
     padding: 10px 15px;
-    margin-bottom: 0;
+    margin: 0;
 }
 .greenBox {
     background-color: rgb(13, 197, 13);
     width: 40%;
     padding: 10px 15px;
-    margin-top: 0;
+    margin: 0;
     text-align: end;
 }
 .label {
@@ -65,5 +65,5 @@ a {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    height: 375px;
+    height: 350px;
 }
